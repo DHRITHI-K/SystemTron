@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Tools</title>
+    <style>
+        p {
+            color: purple;
+            font-style: italic;
+            font-size: 24px;
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <h2> Chrome Developer Tools </h2>
+    <p>This is where we learn Developer Tools</p>
+    <!-- Button to open the DevTools -->
+    <button onclick="openDevTools()">Open Developer Tools</button><br />
+    <!-- This div will be used as a container for our code examples -->
+    <div id="codeContainer"></div>
+    <script type="text/javascript>
+        function openDevTools(){
+            // Accessing chrome's dev tools through javascript
+            window.chrome.devtools.panels.create(" My Panel", "assets/)
+            .setPageActionIconPath(" icon.png") .onClicked.addListener(function (tab) {
+        document.getElementById('codeContainer').innerHTML='<iframe src="panel.html" style="
+                position:fixed; 
+                top:50%;
+                left:50%;
+                transform:translate(-50%, -50%);
+                width:600px;
+                height:300px;">' ; }); }; </script>
+                <hr/>
+                <h2> Console Logging </h2>
+                <button onclick="logToConsole()">Log To Console</button>
+                <script>
+                    function logToConsole() {
+                        console.log("%cHello there!", "background:#ffeb3b");
+                        console.warn("I am a warning message!");
+                        console.error("And I am an error message!");
+                    }
+                </script>
+</body>
+</html>

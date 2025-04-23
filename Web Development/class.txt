@@ -1,0 +1,47 @@
+Define the marker
+App is going to recognise it
+
+After recognising the marker
+What object do u want to show?
+Pokemon
+Heart
+Furniture
+
+
+Multiple Markers
+For which marker
+Which object should be shown
+
+Find a 3D robot model
+do download it
+
+gtpl
+Image
+.png
+.jpg
+
+CSS HTML
+Name 
+Id
+Class
+Variable Name
+
+Alphabet learning for kids -> A,B,C,D
+3d models for apple, ball
+Animated models
+Play sounds also
+Cat -> Meow
+
+
+AR BASED MUSIC PLAYER
+
+Allow the user to play/pause any instrument
+In real time
+Using AR Markers 
+
+Generate virtually unlimited versions of a song
+
+Different markers for different instruments
+User can add/remove any markers
+That instrument added/removed
+

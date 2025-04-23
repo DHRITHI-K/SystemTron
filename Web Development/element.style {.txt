@@ -1,0 +1,318 @@
+element.style {
+    background-color: rgb(26, 53, 91);
+}
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+}
+body {
+    background: #1A355B;
+    margin: 0;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+html:not(#z) {
+    --color-ref-primary0: #000000ff;
+    --color-ref-primary10: #041e49ff;
+    --color-ref-primary20: #062e6fff;
+    --color-ref-primary25: #073888ff;
+    --color-ref-primary30: #0842a0ff;
+    --color-ref-primary40: #0b57d0ff;
+    --color-ref-primary50: #1b6ef3ff;
+    --color-ref-primary60: #4c8df6ff;
+    --color-ref-primary70: #7cacf8ff;
+    --color-ref-primary80: #a8c7faff;
+    --color-ref-primary90: #d3e3fdff;
+    --color-ref-primary95: #ecf3feff;
+    --color-ref-primary99: #fafbffff;
+    --color-ref-primary100: #ffffffff;
+    --color-ref-secondary0: #000000ff;
+    --color-ref-secondary10: #001d35ff;
+    --color-ref-secondary12: #002238ff;
+    --color-ref-secondary15: #002845ff;
+    --color-ref-secondary20: #003355ff;
+    --color-ref-secondary25: #003f66ff;
+    --color-ref-secondary30: #004a77ff;
+    --color-ref-secondary35: #005789ff;
+    --color-ref-secondary40: #00639bff;
+    --color-ref-secondary50: #047db7ff;
+    --color-ref-secondary60: #3998d3ff;
+    --color-ref-secondary70: #5ab3f0ff;
+    --color-ref-secondary80: #7fcfffff;
+    --color-ref-secondary90: #c2e7ffff;
+    --color-ref-secondary95: #dff3ffff;
+    --color-ref-secondary99: #f7fcffff;
+    --color-ref-secondary100: #ffffffff;
+    --color-ref-tertiary0: #000000ff;
+    --color-ref-tertiary10: #072711ff;
+    --color-ref-tertiary20: #0a3818ff;
+    --color-ref-tertiary30: #0f5223ff;
+    --color-ref-tertiary40: #146c2eff;
+    --color-ref-tertiary50: #198639ff;
+    --color-ref-tertiary60: #1ea446ff;
+    --color-ref-tertiary70: #37be5fff;
+    --color-ref-tertiary80: #6dd58cff;
+    --color-ref-tertiary90: #c4eed0ff;
+    --color-ref-tertiary95: #e7f8edff;
+    --color-ref-tertiary99: #f2ffeeff;
+    --color-ref-tertiary100: #ffffffff;
+    --color-ref-error0: #000000ff;
+    --color-ref-error10: #410e0bff;
+    --color-ref-error20: #601410ff;
+    --color-ref-error30: #8c1d18ff;
+    --color-ref-error40: #b3261eff;
+    --color-ref-error50: #dc362eff;
+Show All Properties (1186 more)
+}
+<style>
+html[chrome-refresh-2023] {
+    --cr-fallback-color-outline: rgb(116, 119, 117);
+    --cr-fallback-color-primary: rgb(11, 87, 208);
+    --cr-fallback-color-on-primary: rgb(255, 255, 255);
+    --cr-fallback-color-primary-container: rgb(211, 227, 253);
+    --cr-fallback-color-on-primary-container: rgb(4, 30, 73);
+    --cr-fallback-color-secondary-container: rgb(194, 231, 255);
+    --cr-fallback-color-on-secondary-container: rgb(0, 29, 53);
+    --cr-fallback-color-neutral-container: rgb(242, 242, 242);
+    --cr-fallback-color-neutral-outline: rgb(199, 199, 199);
+    --cr-fallback-color-surface: rgb(255, 255, 255);
+    --cr-fallback-color-on-surface-rgb: 31, 31, 31;
+    --cr-fallback-color-on-surface: rgb(var(--cr-fallback-color-on-surface-rgb));
+    --cr-fallback-color-surface-variant: rgb(225, 227, 225);
+    --cr-fallback-color-on-surface-variant: rgb(68, 71, 70);
+    --cr-fallback-color-on-surface-subtle: rgb(71, 71, 71);
+    --cr-fallback-color-inverse-primary: rgb(168, 199, 250);
+    --cr-fallback-color-inverse-surface: rgb(48, 48, 48);
+    --cr-fallback-color-inverse-on-surface: rgb(242, 242, 242);
+    --cr-fallback-color-tonal-container: rgb(211, 227, 253);
+    --cr-fallback-color-on-tonal-container: rgb(4, 30, 73);
+    --cr-fallback-color-tonal-outline: rgb(168, 199, 250);
+    --cr-fallback-color-error: rgb(179, 38, 30);
+    --cr-fallback-color-divider: rgb(211, 227, 253);
+    --cr-fallback-color-state-hover-on-prominent_: rgba(253, 252, 251, .1);
+    --cr-fallback-color-state-on-subtle-rgb_: 31, 31, 31;
+    --cr-fallback-color-state-hover-on-subtle_: rgba( 31,31,31, .06);
+    --cr-fallback-color-state-ripple-neutral-on-subtle_: rgba( 31,31,31, .08);
+    --cr-fallback-color-state-ripple-primary-rgb_: 124, 172, 248;
+    --cr-fallback-color-state-ripple-primary_: rgba( 124,172,248, 0.32);
+    --cr-fallback-color-base-container: rgba(105, 145, 214, .12);
+    --cr-fallback-color-disabled-background: rgba( 31,31,31, .12);
+    --cr-fallback-color-disabled-foreground: rgba( 31,31,31, .38);
+    --cr-hover-background-color: var(--color-sys-state-hover, rgba(var(--cr-fallback-color-on-surface-rgb), .08));
+    --cr-hover-on-prominent-background-color: var(--color-sys-state-hover-on-prominent, var(--cr-fallback-color-state-hover-on-prominent_));
+    --cr-hover-on-subtle-background-color: var(--color-sys-state-hover-on-subtle, var(--cr-fallback-color-state-hover-on-subtle_));
+    --cr-active-background-color: var(--color-sys-state-pressed, rgba(var(--cr-fallback-color-on-surface-rgb), .12));
+    --cr-active-on-primary-background-color: var(--color-sys-state-ripple-primary, var(--cr-fallback-color-state-ripple-primary_));
+    --cr-active-neutral-on-subtle-background-color: var(--color-sys-state-ripple-neutral-on-subtle, var(--cr-fallback-color-state-ripple-neutral-on-subtle_));
+    --cr-focus-outline-color: var(--color-sys-state-focus-ring, var(--cr-fallback-color-primary));
+    --cr-primary-text-color: var(--color-primary-foreground, var(--cr-fallback-color-on-surface));
+    --cr-secondary-text-color: var(--color-secondary-foreground, var(--cr-fallback-color-on-surface-variant));
+    --cr-link-color: var(--color-link-foreground-default, var(--cr-fallback-color-primary));
+    --cr-button-height: 36px;
+    --cr-shadow-color: var(--color-sys-shadow, rgb(0, 0, 0));
+}
+html {
+    --google-grey-850-rgb: 48, 49, 52;
+    --google-grey-850: rgb(var(--google-grey-850-rgb));
+    --google-red-50-rgb: 252, 232, 230;
+    --google-red-50: rgb(var(--google-red-50-rgb));
+    --google-red-800-rgb: 179, 20, 18;
+    --google-red-800: rgb(var(--google-red-800-rgb));
+    --ntp-focus-shadow: 0 0 0 2px var(--color-new-tab-page-focus-ring);
+    --ntp-module-item-border-radius: 4px;
+    --ntp-module-text-size: 13px;
+}
+<style>
+html {
+    --card-max-width: 960px;
+    --card-min-width: 550px;
+    --card-padding-between: 16px;
+    --card-padding-side: 24px;
+    --first-card-padding-top: 24px;
+    --cluster-max-width: var(--card-max-width);
+    --cluster-min-width: var(--card-min-width);
+    --cluster-padding-horizontal: var(--card-padding-side);
+    --cluster-padding-vertical: var(--card-padding-between);
+    --favicon-margin: 16px;
+    --favicon-size: 16px;
+    --first-cluster-padding-top: var(--first-card-padding-top);
+    --pill-height: 34px;
+    --pill-padding-icon: 12px;
+    --pill-padding-text: 16px;
+    --top-visit-favicon-size: 24px;
+}
+<style>
+html {
+    --annotation-background-color: var(--google-green-50);
+    --annotation-text-color: var(--google-green-600);
+    --border-color: var(--google-grey-300);
+    --entity-image-background-color: var(--google-grey-50);
+    --icon-color: var(--google-grey-600);
+    --url-color: var(--google-blue-600);
+    --side-panel-url-color: var(--google-grey-700);
+}
+<style>
+html {
+    --cr-button-edge-spacing: 12px;
+    --cr-button-height: 32px;
+    --cr-controlled-by-spacing: 24px;
+    --cr-default-input-max-width: 264px;
+    --cr-icon-ripple-size: 36px;
+    --cr-icon-ripple-padding: 8px;
+    --cr-icon-size: 20px;
+    --cr-icon-button-margin-start: 16px;
+    --cr-icon-ripple-margin: calc(var(--cr-icon-ripple-padding)* -1);
+    --cr-section-min-height: 48px;
+    --cr-section-two-line-min-height: 64px;
+    --cr-section-padding: 20px;
+    --cr-section-vertical-padding: 12px;
+    --cr-section-indent-width: 40px;
+    --cr-section-indent-padding: calc(var(--cr-section-padding) + var(--cr-section-indent-width));
+    --cr-section-vertical-margin: 21px;
+    --cr-centered-card-max-width: 680px;
+    --cr-centered-card-width-percentage: 0.96;
+    --cr-hairline: 1px solid rgba(var(--cr-hairline-rgb), .14);
+    --cr-separator-height: 1px;
+    --cr-separator-line: var(--cr-separator-height) solid var(--cr-separator-color);
+    --cr-toolbar-overlay-animation-duration: 150ms;
+    --cr-toolbar-height: 56px;
+    --cr-container-shadow-height: 6px;
+    --cr-container-shadow-margin: calc(-1* var(--cr-container-shadow-height));
+    --cr-container-shadow-max-opacity: 1;
+    --cr-card-border-radius: 8px;
+    --cr-disabled-opacity: .38;
+    --cr-form-field-bottom-spacing: 16px;
+    --cr-form-field-label-font-size: .625rem;
+    --cr-form-field-label-height: 1em;
+    --cr-form-field-label-line-height: 1;
+}
+<style>
+html {
+    --google-blue-50-rgb: 232, 240, 254;
+    --google-blue-50: rgb(var(--google-blue-50-rgb));
+    --google-blue-100-rgb: 210, 227, 252;
+    --google-blue-100: rgb(var(--google-blue-100-rgb));
+    --google-blue-200-rgb: 174, 203, 250;
+    --google-blue-200: rgb(var(--google-blue-200-rgb));
+    --google-blue-300-rgb: 138, 180, 248;
+    --google-blue-300: rgb(var(--google-blue-300-rgb));
+    --google-blue-400-rgb: 102, 157, 246;
+    --google-blue-400: rgb(var(--google-blue-400-rgb));
+    --google-blue-500-rgb: 66, 133, 244;
+    --google-blue-500: rgb(var(--google-blue-500-rgb));
+    --google-blue-600-rgb: 26, 115, 232;
+    --google-blue-600: rgb(var(--google-blue-600-rgb));
+    --google-blue-700-rgb: 25, 103, 210;
+    --google-blue-700: rgb(var(--google-blue-700-rgb));
+    --google-blue-800-rgb: 24, 90, 188;
+    --google-blue-800: rgb(var(--google-blue-800-rgb));
+    --google-blue-900-rgb: 23, 78, 166;
+    --google-blue-900: rgb(var(--google-blue-900-rgb));
+    --google-green-50-rgb: 230, 244, 234;
+    --google-green-50: rgb(var(--google-green-50-rgb));
+    --google-green-200-rgb: 168, 218, 181;
+    --google-green-200: rgb(var(--google-green-200-rgb));
+    --google-green-300-rgb: 129, 201, 149;
+    --google-green-300: rgb(var(--google-green-300-rgb));
+    --google-green-400-rgb: 91, 185, 116;
+    --google-green-400: rgb(var(--google-green-400-rgb));
+    --google-green-500-rgb: 52, 168, 83;
+    --google-green-500: rgb(var(--google-green-500-rgb));
+    --google-green-600-rgb: 30, 142, 62;
+    --google-green-600: rgb(var(--google-green-600-rgb));
+    --google-green-700-rgb: 24, 128, 56;
+    --google-green-700: rgb(var(--google-green-700-rgb));
+    --google-green-800-rgb: 19, 115, 51;
+    --google-green-800: rgb(var(--google-green-800-rgb));
+    --google-green-900-rgb: 13, 101, 45;
+    --google-green-900: rgb(var(--google-green-900-rgb));
+    --google-grey-50-rgb: 248, 249, 250;
+    --google-grey-50: rgb(var(--google-grey-50-rgb));
+    --google-grey-100-rgb: 241, 243, 244;
+    --google-grey-100: rgb(var(--google-grey-100-rgb));
+    --google-grey-200-rgb: 232, 234, 237;
+    --google-grey-200: rgb(var(--google-grey-200-rgb));
+    --google-grey-300-rgb: 218, 220, 224;
+    --google-grey-300: rgb(var(--google-grey-300-rgb));
+    --google-grey-400-rgb: 189, 193, 198;
+    --google-grey-400: rgb(var(--google-grey-400-rgb));
+    --google-grey-500-rgb: 154, 160, 166;
+    --google-grey-500: rgb(var(--google-grey-500-rgb));
+Show All Properties (58 more)
+}
+<style>
+html {
+    --google-red-100-rgb: 244, 199, 195;
+    --google-red-100: rgb(var(--google-red-100-rgb));
+    --google-red-300-rgb: 230, 124, 115;
+    --google-red-300: rgb(var(--google-red-300-rgb));
+    --google-red-500-rgb: 219, 68, 55;
+    --google-red-500: rgb(var(--google-red-500-rgb));
+    --google-red-700-rgb: 197, 57, 41;
+    --google-red-700: rgb(var(--google-red-700-rgb));
+    --google-blue-100-rgb: 198, 218, 252;
+    --google-blue-100: rgb(var(--google-blue-100-rgb));
+    --google-blue-300-rgb: 123, 170, 247;
+    --google-blue-300: rgb(var(--google-blue-300-rgb));
+    --google-blue-500-rgb: 66, 133, 244;
+    --google-blue-500: rgb(var(--google-blue-500-rgb));
+    --google-blue-700-rgb: 51, 103, 214;
+    --google-blue-700: rgb(var(--google-blue-700-rgb));
+    --google-green-100-rgb: 183, 225, 205;
+    --google-green-100: rgb(var(--google-green-100-rgb));
+    --google-green-300-rgb: 87, 187, 138;
+    --google-green-300: rgb(var(--google-green-300-rgb));
+    --google-green-500-rgb: 15, 157, 88;
+    --google-green-500: rgb(var(--google-green-500-rgb));
+    --google-green-700-rgb: 11, 128, 67;
+    --google-green-700: rgb(var(--google-green-700-rgb));
+    --google-yellow-100-rgb: 252, 232, 178;
+    --google-yellow-100: rgb(var(--google-yellow-100-rgb));
+    --google-yellow-300-rgb: 247, 203, 77;
+    --google-yellow-300: rgb(var(--google-yellow-300-rgb));
+    --google-yellow-500-rgb: 244, 180, 0;
+    --google-yellow-500: rgb(var(--google-yellow-500-rgb));
+    --google-yellow-700-rgb: 240, 147, 0;
+    --google-yellow-700: rgb(var(--google-yellow-700-rgb));
+    --google-grey-100-rgb: 245, 245, 245;
+    --google-grey-100: rgb(var(--google-grey-100-rgb));
+    --google-grey-300-rgb: 224, 224, 224;
+    --google-grey-300: rgb(var(--google-grey-300-rgb));
+    --google-grey-500-rgb: 158, 158, 158;
+    --google-grey-500: rgb(var(--google-grey-500-rgb));
+    --google-grey-700-rgb: 97, 97, 97;
+    --google-grey-700: rgb(var(--google-grey-700-rgb));
+    --paper-red-50: #ffebee;
+    --paper-red-100: #ffcdd2;
+    --paper-red-200: #ef9a9a;
+    --paper-red-300: #e57373;
+    --paper-red-400: #ef5350;
+    --paper-red-500: #f44336;
+    --paper-red-600: #e53935;
+    --paper-red-700: #d32f2f;
+    --paper-red-800: #c62828;
+    --paper-red-900: #b71c1c;
+Show All Properties (74 more)
+}
+
+background-attachment scroll
+background-clip border-box
+background-color rgb(26, 53, 91)
+background-image none
+background-origin padding-box
+background-position-x 0%
+background-position-y 0%
+background-repeat repeat
+background-size auto
+display block
+font-family "Segoe UI", Tahoma, sans-serif
+font-size 13px
+height 695.2px
+margin-bottom 0px
+margin-left 0px
+margin-right 0px
+margin-top 0px
+width 981.6px

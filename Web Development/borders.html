@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders and Backgrounds</title>
+    <style>
+        #firstPara{
+            background-color:red;
+            height: 100px;
+            width: 455px;
+            border: 5px solid black;
+            padding: 15px;
+            /* border-width: 2px;
+            border-color: black;
+            border-style: solid; */
+            border-radius: 10px;
+        }
+
+        #secondPara{
+            background-image: url("catt.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 15px;
+            /* background-attachment: fixed; */
+            box-shadow: inset 5px 5px 10px grey;
+            height: 1100px;
+            width: 1455px;
+            border: 2px solid black;
+        }
+
+        #thirdPara{
+            float: right;
+            margin-right: 30px;
+            padding: 15px;
+            font-size: larger;
+            color: blue;
+            background-color: chartreuse;
+            height: 100px;
+            width: 455px;
+            border-top: 2px solid rgb(red, green, blue);
+            border-bottom: 6px double rgba(75, 0, 13);
+            border-left: 2px solid(156, 42, 13);
+            border-right: 2px solid rgb(18, 10, 133);
+            border-top-right-radius: 4px;
+            border-top-left-radius: 90deg/100%;
+            border-bottom-right-radius: 40%/60vh;
+            border-bottom-left-radius: 100vw/50rem;
+        }
+    </style>
+</head>
+<body>
+    <h3>height, width, Borders and Backgrounds in CSS</h3>
+    <p id="firstPara">This is the first paragraph</p>
+    <p id="secondPara">This is the second paragraph</p>
+    <p id="thirdPara">This is the third paragraph</p>
+</body>
+</html>

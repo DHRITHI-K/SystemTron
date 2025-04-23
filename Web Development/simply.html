@@ -1,0 +1,320 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .todo-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        .todo-container h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .todo-container input[type="text"] {
+            width: calc(100% - 50px);
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .todo-container button {
+            padding: 10px 15px;
+            background-color: #5c67f2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .todo-container button:hover {
+            background-color: #4b54c4;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        ul li.completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        .action-buttons button {
+            margin-left: 5px;
+            padding: 5px 10px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .action-buttons .check {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .action-buttons .uncheck {
+            background-color: #ffc107;
+            color: white;
+        }
+
+        .action-buttons .delete {
+            background-color: #dc3545;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="todo-container">
+        <h1>To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script>
+        function addTask() {
+            const taskInput = document.getElementById('taskInput');
+            const taskList = document.getElementById('taskList');
+
+            if (taskInput.value.trim() === '') {
+                alert('Please enter a task.');
+                return;
+            }
+
+            const li = document.createElement('li');
+            li.textContent = taskInput.value;
+
+            const actionButtons = document.createElement('div');
+            actionButtons.className = 'action-buttons';
+
+            const checkButton = document.createElement('button');
+            checkButton.textContent = 'Check';
+            checkButton.className = 'check';
+            checkButton.onclick = function () {
+                li.classList.add('completed');
+            };
+
+            const uncheckButton = document.createElement('button');
+            uncheckButton.textContent = 'Uncheck';
+            uncheckButton.className = 'uncheck';
+            uncheckButton.onclick = function () {
+                li.classList.remove('completed');
+            };
+
+            const deleteButton = document.createElement('button');
+            deleteButton.textContent = 'Delete';
+            deleteButton.className = 'delete';
+            deleteButton.onclick = function () {
+                taskList.removeChild(li);
+            };
+
+            actionButtons.appendChild(checkButton);
+            actionButtons.appendChild(uncheckButton);
+            actionButtons.appendChild(deleteButton);
+
+            li.appendChild(actionButtons);
+            taskList.appendChild(li);
+
+            taskInput.value = '';
+        }
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .board {
+            display: grid;
+            grid-template-columns: repeat(7, 60px);
+            gap: 5px;
+            background-color: #0077cc;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .cell {
+            width: 60px;
+            height: 60px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .cell.red {
+            background-color: red;
+        }
+
+        .cell.yellow {
+            background-color: yellow;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .message {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Connect Four</h1>
+        <div id="board" class="board"></div>
+        <div class="message" id="message">Player Red's turn</div>
+    </div>
+
+    <script>
+        const rows = 6;
+        const columns = 7;
+        const board = document.getElementById('board');
+        const message = document.getElementById('message');
+
+        let currentPlayer = 'red';
+        let gameBoard = Array.from({ length: rows }, () => Array(columns).fill(null));
+
+        // Create the board
+        function createBoard() {
+            for (let row = 0; row < rows; row++) {
+                for (let col = 0; col < columns; col++) {
+                    const cell = document.createElement('div');
+                    cell.classList.add('cell');
+                    cell.dataset.row = row;
+                    cell.dataset.col = col;
+                    cell.addEventListener('click', () => handleCellClick(row, col));
+                    board.appendChild(cell);
+                }
+            }
+        }
+
+        // Handle cell click
+        function handleCellClick(row, col) {
+            for (let r = rows - 1; r >= 0; r--) {
+                if (!gameBoard[r][col]) {
+                    gameBoard[r][col] = currentPlayer;
+                    const cell = document.querySelector(
+                        `.cell[data-row='${r}'][data-col='${col}']`
+                    );
+                    cell.classList.add(currentPlayer);
+
+                    if (checkWin(r, col)) {
+                        message.textContent = `Player ${capitalize(currentPlayer)} wins!`;
+                        board.style.pointerEvents = 'none';
+                        return;
+                    }
+
+                    currentPlayer = currentPlayer === 'red' ? 'yellow' : 'red';
+                    message.textContent = `Player ${capitalize(currentPlayer)}'s turn`;
+                    return;
+                }
+            }
+        }
+
+        // Check for win
+        function checkWin(row, col) {
+            return (
+                checkDirection(row, col, 1, 0) || // Horizontal
+                checkDirection(row, col, 0, 1) || // Vertical
+                checkDirection(row, col, 1, 1) || // Diagonal (down-right)
+                checkDirection(row, col, 1, -1)   // Diagonal (down-left)
+            );
+        }
+
+        // Check in a specific direction
+        function checkDirection(row, col, rowDir, colDir) {
+            let count = 1;
+
+            count += countCells(row, col, rowDir, colDir);
+            count += countCells(row, col, -rowDir, -colDir);
+
+            return count >= 4;
+        }
+
+        function countCells(row, col, rowDir, colDir) {
+            let count = 0;
+            let r = row + rowDir;
+            let c = col + colDir;
+
+            while (
+                r >= 0 &&
+                r < rows &&
+                c >= 0 &&
+                c < columns &&
+                gameBoard[r][c] === currentPlayer
+            ) {
+                count++;
+                r += rowDir;
+                c += colDir;
+            }
+
+            return count;
+        }
+
+        // Capitalize player name
+        function capitalize(name) {
+            return name.charAt(0).toUpperCase() + name.slice(1);
+        }
+
+        createBoard();
+    </script>
+</body>
+</html>

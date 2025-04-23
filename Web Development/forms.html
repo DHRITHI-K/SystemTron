@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Inputs</title>
+</head>
+<body>
+    <h2> This is HTML Forms Tutorial </h2>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <div>
+            Role: <input type="text">
+        </div>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <div>
+            Password: <input type="password">
+        </div>
+        <div>
+            Date of Birth: <input type="date" name="myDate">
+        </div>
+        <div>
+            Gender: Male<input type="radio" name="myGender">
+            Female<input type="radio" name="myGender">
+        </div>
+        <div>
+        Are you Eligible?: <input type="checkbox">
+        </div>
+        <!-- Text area tag -->
+        Write about Yourself:<br><textarea name="myText" rows="4" cols="50"></textarea><br>
+
+        <!-- Label Tag -->
+        <div>
+            <label for="cars">Choose your car:</label>     <!--id="xyz" and label for="xyz" should be same-->
+            <select name="myCar" id="cars"> <!--Select Tag-->
+                <option value="ford"> Ford </option>
+                <option value="audi"> Audi </option>
+                <option value="toyota"> Toyota </option>
+            </select>
+        </div>
+        <!-- <div>
+            <img src="catt.jpg" alt="Not found" height="200px" width="200px">
+        </div> -->
+        <div>
+            <!-- Upload Image: <input type="file" name="image"> -->
+            Upload Image:<input type="image" name="myImage">
+        </div>
+
+        Are you done? Then:<input type="submit">
+    </form>
+</body>
+</html>
