@@ -18,4 +18,4 @@ As part of the assignment, I created a simple To-Do List App using modern web de
 
 ## Assignment 4: [Connect4 Game]
 As part of the assignment, I had to make a Connect 4 game using modern web development technologies. This project helped me gain a deeper understanding of web development fundamentals. 
-- **Link to LinkedIn Post**: [LinkedIn Post about Assignment 2](https://www.linkedin.com/posts/dhrithi-k-17024b25a_webdevelopment-html-css-activity-7281704888122650625-j-YR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_AhyQBB1uYnB2HaZ7UXfSW9KfXNDl9gmw)
+- **Link to LinkedIn Post**: [LinkedIn Post about Assignment 4](https://www.linkedin.com/posts/dhrithi-k-17024b25a_webdevelopment-html-css-activity-7281704888122650625-j-YR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_AhyQBB1uYnB2HaZ7UXfSW9KfXNDl9gmw)
